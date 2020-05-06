@@ -5,7 +5,7 @@ This is a pack that merges a few different dark mode skins for Steam, courtesy o
 - [Unofficial Patch for Metro for Steam](https://github.com/redsigma/UPMetroSkin) (by RedSigma) with the [following options](https://prnt.sc/sbh8au)
 - [Steam Dark Mode](https://github.com/AikoMidori/steam-dark-mode) (by Shiina) for the web pages, but I made a few color changes to the Carousel Thumbs (dots below the displays on store, normal color's gray)
 - [Steam Library Makeover](https://github.com/AikoMidori/steam-library) by Shiina
-- [Custom Friends UI Tool](https://steamchatskinning.tk/#customisation) by RedSigma <br/>
+- [Custom Friends UI Tool](https://steamchatskinning.tk/#customisation) by LaserFlash <br/>
 Pages Preview:
 ![Pages Preview](https://user-images.githubusercontent.com/20804322/81106181-8353fe00-8eeb-11ea-841e-35f28710f446.png)
 Library Preview:
