@@ -70,7 +70,7 @@
     /* LIBRARY CATEGORIES */
     /**********************/
     --WhatsNew: block; /* Set to [ none | block ] */
-    --Recent: block; /* Set to [ none | block ] */
+    --Recent: none; /* Set to [ none | block ] */
     --TitleColor: var(--textcolor); /* Catagory title color */
     --TitleFont: 500; /* Set to [ 1 > 1000 ] */
 
@@ -78,7 +78,7 @@
     /**************/
     /* GAME ICONS */
     /**************/
-    --GameIcons: none; /* Set to [ none | block ] */
+    --GameIcons: block; /* Set to [ none | block ] */
 
 
     /**********************/
