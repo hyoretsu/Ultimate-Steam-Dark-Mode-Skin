@@ -32,7 +32,7 @@
     --gamehover: var(--white); /* Game hover color */
     --textcolor: var(--purple); /* Text color */
     --pending: var(--red); /* Text color for pending updates/downloads */
-    --offline: var(--offlinegrey); /* Offline avatar color */
+    --offline: var(--offlinegrey);; /* Offline avatar color */
     --ingame: var(--ingamegreen); /* Ing-ame avatar color */
     --online: var(--onlineblue); /* Online avatar color */
 
@@ -70,7 +70,7 @@
     /* LIBRARY CATEGORIES */
     /**********************/
     --WhatsNew: block; /* Set to [ none | block ] */
-    --Recent: none; /* Set to [ none | block ] */
+    --Recent: block; /* Set to [ none | block ] */
     --TitleColor: var(--textcolor); /* Catagory title color */
     --TitleFont: 500; /* Set to [ 1 > 1000 ] */
 
@@ -78,7 +78,7 @@
     /**************/
     /* GAME ICONS */
     /**************/
-    --GameIcons: block; /* Set to [ none | block ] */
+    --GameIcons: none; /* Set to [ none | block ] */
 
 
     /**********************/
