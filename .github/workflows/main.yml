@@ -1,0 +1,27 @@
+name: 'Auto Release'
+on: [push]
+jobs:
+ build:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Checkout
+     uses: actions/checkout@master
+     with:
+      fetch-depth: '0'
+   - name: Create Zip
+     uses: thedoctor0/zip-release@master
+     with:
+      type: zip
+      filename: Ultimate-Steam-Dark-Mode-Skin.zip
+      exclusions: '*.git* LICENSE README.md'
+   - name: Bump version and push tag
+     uses: anothrNick/github-tag-action@1.36.0
+     env:
+      DEFAULT_BUMP: patch
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      RELEASE_BRANCHES: main
+      WITH_V: true
+   - name: Create Release
+     uses: softprops/action-gh-release@v1
+     with:
+      files: Ultimate-Steam-Dark-Mode-Skin.zip
