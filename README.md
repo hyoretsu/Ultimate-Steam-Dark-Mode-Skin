@@ -11,8 +11,10 @@ Pages Preview:
 Library Preview:
 ![Library Preview](https://user-images.githubusercontent.com/20804322/81106263-ac748e80-8eeb-11ea-8bb0-ca88d40bb376.png)
 Friends UI Preview: <br/>
-![Friends UI Preview](https://user-images.githubusercontent.com/20804322/81106268-ae3e5200-8eeb-11ea-9298-b1524c851dcd.png) <br/>
+![Friends UI Preview](https://user-images.githubusercontent.com/20804322/168451448-0b47244e-21e2-4d2f-aae4-c6a66898c385.png) <br/>
 In-Game Overlay Preview:
 ![In-Game Overlay Preview](https://user-images.githubusercontent.com/20804322/100812094-f0e0f200-341a-11eb-8783-499fe2502d32.png)
 # Installation
-After [downloading](https://github.com/Hyoretsu/Ultimate-Steam-Dark-Mode-Skin/releases/download/v1.0/UltimateSteamSkin.zip), drag and drop all 3 folders to Steam's main folder, select Metro For Steam under Settings->Interface->Select the skin you wish Steam to use, open [PhantomGamer](https://github.com/PhantomGamers/SteamFriendsPatcher)'s [Steam Friends Patcher](https://github.com/PhantomGamers/SteamFriendsPatcher/releases/download/0.1.20-beta/SteamFriendsPatcher-0.1.20-beta.zip) after restarting Steam, click on Force Check, click on the cog on bottom right corner, make sure "Start with Windows", "Start Minimized", "Patch Library [BETA]" and "Steam Beta" are checked, click Save Settings and restart Steam again.
+After [downloading](https://github.com/Hyoretsu/Ultimate-Steam-Dark-Mode-Skin/releases/download/v1.0/UltimateSteamSkin.zip), drag and drop all 3 folders to Steam's main folder, select Metro For Steam under Settings->Interface->Select the skin you wish Steam to use, open [PhantomGamers](https://github.com/PhantomGamers)' [SFP](https://github.com/PhantomGamers/SFP/releases/latest) after restarting Steam and click Patch. I also recommend turning on "Patch on App Startup", "Scan on App Startup" and "Check For Updates On Startup".
+
+Note: if you used the old Steam Friends Patcher, run "Reset Steam" before patching.
