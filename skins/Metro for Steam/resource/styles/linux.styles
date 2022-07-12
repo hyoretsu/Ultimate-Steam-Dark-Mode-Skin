@@ -1,11 +1,11 @@
 linux.styles
 {
-	colors [$LINUX]
+	colors
 	{
-		basefont="Open Sans"
-		semibold="Open Sans Semibold"
-		semilight="Open Sans Light"
-		light="Open Sans Light"
+		basefont="Liberation Sans"
+		semibold="Liberation Sans"
+		semilight="Liberation Sans"
+		light="Liberation Sans"
 	}
 	styles
 	{
@@ -21,36 +21,30 @@ linux.styles
 		}
 		RadioButton
 		{
-			font-size=15
+			font-size=14 
 		}
 		CheckButton
 		{
-			font-size=15
+			font-size=14 
 		}
 		ComboBox
 		{
 			font-size=14 
 		}
 
-		PageTab //highdpi
+		PageTab
 		{
-			font-size=14
+			font-size=12 
 		}
-		TextEntry //highdpi
+		TextEntry
 		{
-			font-size=18
+			font-size=14 
 		}
 		EmoticonMenuItemStyle
 		{
 			font-size=22 
 		}
 ///////////////////////////////////////////		
-
-		//steam.styles
-		"CGamesListPanel" //highdpi
-		{
-			font-size=16
-		}
 
 		//FriendsDialog.res
 		"CFriendsDialog PageTab"
@@ -74,10 +68,11 @@ linux.styles
 		
 		///////////////////////////////////////////////
 		//======FriendsPanel Friend/Groups Title======//
-		CFriendsListSectionHeader //highdpi
+		CFriendsListSectionHeader
 		{
-			font-size=14
+			font-size=12 
 		}
+
 
 		"CDialogSettings FrameTitle"
 		{
@@ -125,21 +120,16 @@ linux.styles
 			font-size=20 
 		}
 		//overlay_achievement_item.layout override 
-		Label //highdpi
+		Label
 		{
-			font-size=16
+			font-size=14 
 		}
-		//edittagspage.layout
-		"CEditTagsPage Label" //highdpi
-		{
-			font-size=14
-		}
-
+		
 		/////////////////////////////////////////////
 		//==List elements similar to the interior==//
-		ListPanel //highdpi
+		ListPanel
 		{
-			font-size=16
+			font-size=14 
 		}
 		/////////////////////////////////////////////////////////////////////////////////////////
 		//==Interior of List elements (fonts doesn't change on all of them.Look at ListPanel)==//
@@ -151,9 +141,9 @@ linux.styles
 		
 		/////////////////////////////////////////
 		//======List View Mode Games Name======//
-		"GameColumn_BigText" //highdpi
+		"GameColumn_BigText"
 		{
-			font-size=16
+			font-size=14 
 		}
 
 		///////////////////////////////////////////////
@@ -165,23 +155,23 @@ linux.styles
 		
 		//////////////////////////////////////////////////
 		//===Library Categories(Recent,Software...etc)==//
-		ListPanelSectionHeader //highdpi
+		ListPanelSectionHeader
 		{
-			font-size=18
+			font-size=16 
 		}
 		
 		/////////////////////////////////////////////////////////
 		//======Dropmenu buttons(inbox,filter button.....)=====//
 		MenuItem
 		{
-			font-size=14
+			font-size=14 
 		}
 		
 		///////////////////////////////////////////////////////
 		//===Main Buttons Hover Menus (top client buttons)===//
-		SuperNavMenuItem //highdpi
+		SuperNavMenuItem
 		{
-			font-size=15
+			font-size=14 
 		}
 
 		Notification
@@ -193,28 +183,28 @@ linux.styles
 			font-size=14 
 		}
 
-		RichText //highdpi
+		RichText
 		{
-			font-size=16
+			font-size=14 
 		}
 		////////////////////////
 		//======URL Links=====//
-		"RichText url" //highdpi
+		"RichText url"
 		{
-			font-size=16 
+			font-size=14 
 		}
-		"CFriendPanel RichText URL" //highdpi
+		"CFriendPanel RichText URL"
 		{
-			font-size=16 
+			font-size=12 
 		}
 		
-		"RichText bold" //highdpi
+		"RichText bold"
 		{
-			font-size=16 
+			font-size=14 
 		}
-		"RichText emphasis" //highdpi
+		"RichText emphasis"
 		{
-			font-size=16
+			font-size=14
 		}
 		////////////////////////////////
 		//======Friendspanel List=====//
@@ -264,69 +254,69 @@ linux.styles
 		
 		//////////////////////////////////
 		//======Other Person's Text=====//
-		friends_chat_text //highdpi
+		friends_chat_text
 		{
-			font-size=18
+			font-size=14
 		}
 		////////////////////////
 		//======Your Text=====//
-		friends_chat_text_self //highdpi
+		friends_chat_text_self
 		{
-			font-size=18
+			font-size=14 
 		}
 		////////////////////////////////
 		//======Chat History Text=====//
-		friends_chat_history //highdpi
+		friends_chat_history
 		{
-			font-size=18
+			font-size=14 
 		}
 		//////////////////////////////////////
 		//======Voice Call/Trade/Invite=====//
-		friends_chat_event //highdpi
+		friends_chat_event
 		{
-			font-size=18
+			font-size=14 
 		}
 
-		//////////////////////////////////////////////
+		///////////////////////////////////////////////
 		//====== Status Changes/Connection/Game=====//
-		friends_chat_bright_event //highdpi
+		friends_chat_bright_event
 		{
-			font-size=18
+			font-size=14 
 		}
 
-		////////////////////////////
+		////////////////////////////////////
 		//======Links in chat=====//
-		friends_chat_url //highdpi
+		friends_chat_url
 		{
-			font-size=18
+			font-size=14 
 		}
-		/////////////////////////////////////////////
+		////////////////////////////////////////////////
 		//======Everybody's Name while in-game=====//
-		friends_chat_name_ingame //highdpi
+		friends_chat_name_ingame
 		{
-			font-size=18
+			font-size=14 
 		}
-		friends_chat_self //highdpi
+		friends_chat_self
 		{
-			font-size=18
+			font-size=14 
 		}
 		////////////////////////////////////////////
 		//======Everybody's Name while online=====//
-		friends_chat_name //highdpi
+		friends_chat_name
 		{
-			font-size=18
+			font-size=14 
 		}
 
-		friends_chat_accountid //highdpi
+		friends_chat_accountid
 		{
-			font-size=18
+			font-size=14 
 		}
 
 		//////////////////////////////////////////////
 		//=="Never tell your password to...." Text==//
-		friends_chat_securitylink //highdpi
+		friends_chat_securitylink
 		{
-			font-size=18
+			font-size=14 
 		}
 ///////////////////////////////////////////////////////////////
 
@@ -335,7 +325,7 @@ linux.styles
 		//======Phone reminder======//
 		soft
 		{
-			font-size=14
+			font-size=14 
 		}
 		
 		bright
@@ -364,9 +354,9 @@ linux.styles
 			font-size=16 
 		}
 		//overlay_broadcastchat.layout
-		"COverlayBroadcastChatDialog label" //highdpi
+		"COverlayBroadcastChatDialog label"
 		{
-			font-size=16
+			font-size=12 
 		}
 
 		"CSettingsSubFriends URLLabel"
@@ -376,48 +366,48 @@ linux.styles
 ////////////////////////////////////////
 
 		//friendpanel.layout
-		CFriendPanel //highdpi
+		CFriendPanel
 		{
-			font-size=16
+			font-size=14
 		}
-		namestyle //highdpi
+		namestyle
 		{
-			font-size=16 
+			font-size=14 
 		}
-		nameInstanceStyle //highdpi
+		nameInstanceStyle
 		{
-			font-size=16 
+			font-size=14 
 		}
-		statusStyle //highdpi
+		statusStyle
 		{
-			font-size=16 
+			font-size=14 
 		}
-		friends_offline //highdpi
+		friends_offline
 		{
-			padding-top=-2
-			padding-bottom=-1
+			padding-top=0
+			padding-bottom=1
 		}
-		friends_online //highdpi
+		friends_online
 		{
-			padding-top=-2
-			padding-bottom=-1
+			padding-top=0
+			padding-bottom=1
 		}
-		friends_ignored //highdpi
+		friends_ignored
 		{
-			padding-top=-2
-			padding-bottom=-1
+			padding-top=0
+			padding-bottom=1
 		}
-		controlPanelLinkStyle //highdpi
+		controlPanelLinkStyle
 		{
-			font-size=16
+			font-size=14
 		}
-		controlPanelLinkStyle:hover //highdpi
+		controlPanelLinkStyle:hover
 		{
-			font-size=16
+			font-size=14
 		}
 		inviteLinkStyle
 		{
-			font-size=16
+			font-size=14
 		}
 //////////////////////////////////////////
 
@@ -439,21 +429,21 @@ linux.styles
 ////////////////////////////////////////		
 		
 		//downloadsummarypanel.layout
-		throttleLabel //highdpi
+		throttleLabel
 		{
-			font-size=16
+			font-size=14
 		}
 		throttleValue
 		{
 			font-size=13 
 		}
-		bigtextNonUpper //highdpi
+		bigtextNonUpper
 		{
-			font-size=16
+			font-size=14
 		}
-		bigtextlabel //highdpi
+		bigtextlabel
 		{
-			font-size=16
+			font-size=14
 		}
 		bigtextHeader
 		{
@@ -478,9 +468,9 @@ linux.styles
 		{
 			font-size=16 
 		}
-		CUINavButton //highdpi
+		CUINavButton
 		{
-			font-size=26
+			font-size=14 
 		}
 		CUINavButton2
 		{
@@ -501,43 +491,43 @@ linux.styles
 		}
 
 		//steamrootdialog.layout
-		AccountBalanceStyle //highdpi
+		AccountBalanceStyle
 		{
-			font-size=16
+			font-size=14
 		}
-		inbox_button //highdpi
+		inbox_button
 		{
-			font-size=16
+			font-size=14
 		}
-		inbox_button_active //highdpi
+		inbox_button_active
 		{
-			font-size=16
+			font-size=14
 		}
 //////////////////////////////////////////
 		//steamrootdialog_gamespage_details.layout
-		rightcolumnheadertext //highdpi
-		{
-			font-size=18 
-		}
-		rightcolumnheadertext-red //highdpi
-		{
-			font-size=18 
-		}
-		rightcolumnheadertext-green //highdpi
-		{
-			font-size=18 
-		}
-		rightcolumnheadertext-blue //highdpi
-		{
-			font-size=18 
-		}
-		rightcolumnlink //highdpi
+		rightcolumnheadertext
 		{
 			font-size=16 
 		}
-		rightcolumntag //highdpi
+		rightcolumnheadertext-red
 		{
 			font-size=16 
+		}
+		rightcolumnheadertext-green
+		{
+			font-size=16 
+		}
+		rightcolumnheadertext-blue
+		{
+			font-size=16 
+		}
+		rightcolumnlink
+		{
+			font-size=14 
+		}
+		rightcolumntag
+		{
+			font-size=14 
 		}
 ////////////////////////////////////////		
 		
@@ -591,14 +581,14 @@ linux.styles
 			font-size		"12" 
 		}
 		//Game Title
-		ModuleHeading //highdpi
+		ModuleHeading
 		{
-			font-size		"16"
+			font-size		"14"
 		}
 		//Bottom Status
-		ModuleHeading2 //highdpi
+		ModuleHeading2
 		{
-			font-size		"16"
+			font-size		"14"
 		}
 //////////////////////////////////////////
 
@@ -680,50 +670,33 @@ linux.styles
 		}
 
 		//ChatRoomDlgFriend.res
-		"CChatRoomDlg label" //highdpi
+		"CChatRoomDlg label"
 		{
-			font-size=16
+			font-size=12
 		}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////				ASPECT OVERRIDES				////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		//steamrootdialog.layout
-		CSteamRootDialog //highdpi
-		{
-			minimum-width=1200
-			minimum-height=600
-		}
-		//steam.styles
-		"CGamesListPanel" //highdpi
-		{
-			font-family=semibold
-		}
-		inbox_button_active //highdpi
-		{
-			font-family=semibold
-		}
-/////////////////////////////////////////////////////////
-
 		//friendpanel.layout
-		namestyle //highdpi
+		namestyle
 		{
-			font-family=semibold
+			font-family=basefont
+			padding-bottom=2
 		}
-		nameInstanceStyle //highdpi
+		nameInstanceStyle
 		{
-			font-family=semibold
+			font-family=basefont
 		}
-		statusStyle //highdpi
+		statusStyle
 		{
-			padding-bottom=0
+			padding-bottom=2
 		}
 ////////////////////////////////////////////////////////
 		//steam.styles
-		ListPanelSectionHeader //highdpi
+		ListPanelSectionHeader
 		{
-			font-family=basefont
+			font-family=semibold
 		}
 	}
 }
